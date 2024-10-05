@@ -52,8 +52,8 @@ def plot_raw_data():
 plot_raw_data()
 
 # Forecasting with holidays
-us_holidays = holidays.US()
-m = Prophet(holidays=us_holidays)
+# us_holidays = holidays.US()
+# m = Prophet(holidays=us_holidays)
 
 # Prepare data
 df_train = data[['Date', 'Close']]
