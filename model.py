@@ -53,7 +53,7 @@ plot_raw_data()
 
 # Forecasting with holidays
 # us_holidays = holidays.US()
- m = Prophet()
+m = Prophet()
 
 # Prepare data
 df_train = data[['Date', 'Close']]
